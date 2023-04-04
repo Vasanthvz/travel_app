@@ -46,14 +46,14 @@ li{
 }
 .btn{
     padding:.6rem 1.5rem;
-    background-color: var(--gradientColor);
+    background-color: var(--SecondaryColor);
     border-radius: 3rem;
     border: none;
     outline: none;
     cursor: pointer;
 }
 .btn a{
-    color: var(--blackColor);
+    color: var(--whiteColor);
     font-weight: 500;
 }
 .btn:hover{
