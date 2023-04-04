@@ -46,7 +46,7 @@ li{
 }
 .btn{
     padding:.6rem 1.5rem;
-    background-color: var(--SecondaryColor);
+    background-color: var(--PrimaryColor);
     border-radius: 3rem;
     border: none;
     outline: none;

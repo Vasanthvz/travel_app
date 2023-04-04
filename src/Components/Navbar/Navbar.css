@@ -61,4 +61,17 @@
   .header .navBar .navLists .btn {
     margin-top: 1rem;
   }
+  .header .navBar .navLists .btn a {
+    font-weight: 600;
+    color: var(--whiteColor);
+  }
+  .header .navBar .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: var(--PrimaryColor);
+  }
+  .header .navBar .closeNavbar:hover {
+    color: var(--SecondaryColor);
+  }
 }/*# sourceMappingURL=Navbar.css.map */
