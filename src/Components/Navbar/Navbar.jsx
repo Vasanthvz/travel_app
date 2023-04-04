@@ -10,6 +10,9 @@ const Navbar = () => {
     const showNav = ()=>{
         setActive('navBar activeNavbar')
     }
+    const closeNav = ()=>{
+        setActive('navBar')
+    }
   return (
     <section className='navBarSection'>
         <header className="header flex">
@@ -45,11 +48,11 @@ const Navbar = () => {
                         <a href="#">BOOK NOW</a>
                     </button>
                 </ul>
-                <div className="closeNavbar">
+                <div onClick={closeNav} className="closeNavbar">
                    <AiFillCloseCircle className='icon'/>
                 </div>
             </div>
-            <div className="toggleNavbar">
+            <div onClick={showNav} className="toggleNavbar">
                 <TbGridDots className='icon'/>
             </div>
         </header>

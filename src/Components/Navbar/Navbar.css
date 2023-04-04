@@ -47,7 +47,7 @@
     width: 80%;
     border-radius: 1rem;
     padding: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     transform: translate(-50%);
     z-index: 2000;
@@ -87,6 +87,9 @@
   }
   .header .navBar .closeNavbar:hover {
     color: var(--SecondaryColor);
+  }
+  .header .activeNavbar {
+    top: 7rem;
   }
 }
 .header .toggleNavbar .icon {
