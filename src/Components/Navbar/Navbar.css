@@ -40,4 +40,25 @@
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
     transition: 0.3s ease-in-out;
   }
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItems {
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItems .navlinks {
+    color: var(--textColor);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .header .navBar .navLists .navItems .navlinks:hover {
+    color: var(--PrimaryColor);
+  }
+  .header .navBar .navLists .btn {
+    margin-top: 1rem;
+  }
 }/*# sourceMappingURL=Navbar.css.map */
