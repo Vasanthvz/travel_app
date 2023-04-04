@@ -11,7 +11,9 @@
     --bodyColor:rgb(240,240,246);
     ---cardBG:rgb(225,225,235);
 }
-
+.navItems a{
+    color: black;
+}
 .header{
     position: fixed;
     display: flex;
@@ -42,6 +44,7 @@
             height: max-content;
             width: 80%;
             border-radius: 1rem;
+            padding: 1rem;
             top: 6rem;
             left: 50%;
             transform: translate(-50%);
