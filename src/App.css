@@ -44,3 +44,15 @@ li{
     align-items: center;
     display: grid;
 }
+.btn{
+    padding:.6rem 1.5rem;
+    background-color: var(--gradientColor);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn a{
+    color: var(--whiteColor);
+    font-weight: 500;
+}
