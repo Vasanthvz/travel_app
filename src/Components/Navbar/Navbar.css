@@ -16,7 +16,7 @@
   position: fixed;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: var(--whiteColorDeam);
   width: 100%;
   padding: 1rem;
@@ -24,6 +24,15 @@
 }
 .header .logo {
   color: var(--blackColor);
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+  transform: translateY(5px);
 }
 @media screen and (max-width: 768px) {
   .header .navBar {
@@ -74,4 +83,11 @@
   .header .navBar .closeNavbar:hover {
     color: var(--SecondaryColor);
   }
+}
+.header .toggleNavbar .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+}
+.header .toggleNavbar:hover.icon {
+  color: var(--SecondaryColor);
 }/*# sourceMappingURL=Navbar.css.map */

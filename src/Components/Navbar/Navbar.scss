@@ -16,7 +16,7 @@
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background:var(--whiteColorDeam);
     width: 100%;
     padding: 1rem;
@@ -24,6 +24,16 @@
 
     .logo{
         color: var(--blackColor);
+        font-weight: 600;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+
+        .icon{
+            font-size: 25px;
+            color: var(--PrimaryColor);
+            transform: translateY(5px);
+        }
     }
     @media screen and (max-width: 768px){
         .navBar{
@@ -77,5 +87,14 @@
             }
         }
         
+    }
+    .toggleNavbar{
+        .icon{
+            font-size: 25px;
+            color: var(--PrimaryColor);
+        }
+        &:hover.icon{
+            color: var(--SecondaryColor);
+        }
     }
 }

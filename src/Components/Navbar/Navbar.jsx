@@ -10,7 +10,7 @@ const Navbar = () => {
         <header className="header flex">
             <div className="logoDiv">
                 <a href="#" className="logo flex">
-                    <h1> <MdOutlineTravelExplore className='icon'/>travel</h1>
+                    <h1> <MdOutlineTravelExplore className='icon'/>Travel</h1>
                 </a>
             </div>
             <div className="navBar">
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="toggleNavbar">
-                <TbGridDots/>
+                <TbGridDots className='icon'/>
             </div>
         </header>
     </section>
